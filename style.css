@@ -1,0 +1,140 @@
+.menu {
+    text-align : center;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.menu a {
+    color: black;
+}
+
+.menu a:hover {
+    color: skyblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gambar {
+    width: 100px;
+    padding-top: 20px;
+}
+
+.menu-beranda {
+    text-align : center;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+
+.product {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sub-produk {
+    width: 250px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    flex: 0 0 100%;
+    max-width: 70%;
+}
+
+.sub-produk button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.sub-produk button:hover {
+    background-color:rgb(228, 215, 215);
+    color: black;
+    border: 1px solid skyblue;
+}
+
+@media (min-width: 640px) {
+    .sub-produk {
+      flex: 0 0 48%;
+      max-width: 48%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .sub-produk {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+  }
+
+.style-gambar {
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+}
+
+.style-gambar img {
+    width: 100%;
+    height: auto;
+    object-fit: fit;
+    display: block;
+}
+
+.about {
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    margin-top: 20px;
+    margin: auto;
+    max-width: 90%;
+}
+
+.contact {
+    width: 100%;
+    display:flex;
+    margin-bottom: 100px;
+}
+
+.contact .container {
+    margin: auto;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.social-media{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-media img{
+    width: 20px;
+}
+
+.contact-info img {
+    width: 20px;            
+}
+
+.contact-info h3 {
+    text-align: center;
+}
