@@ -27,6 +27,14 @@ h2 {
     font-family: 'Times New Roman';
 }
 
+.menu-beranda a {
+    color: black;
+}
+
+.menu-beranda a:hover {
+    color: skyblue;
+}
+
 .product {
     width: 100%;
     padding-left: 1rem;
